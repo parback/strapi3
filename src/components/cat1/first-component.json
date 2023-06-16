@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cat1_first_components",
+  "info": {
+    "displayName": "First_component",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Ingress": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}
