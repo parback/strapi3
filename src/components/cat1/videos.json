@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_cat1_videos",
+  "info": {
+    "displayName": "Videos",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string"
+    }
+  }
+}

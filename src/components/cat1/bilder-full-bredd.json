@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_cat1_bilder_full_bredds",
+  "info": {
+    "displayName": "Bilder_full_bredd",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "Bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bildtext": {
+      "type": "string"
+    }
+  }
+}

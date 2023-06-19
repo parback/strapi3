@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_cat1_citats",
+  "info": {
+    "displayName": "Citat",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Citat_bild": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Citat_text": {
+      "type": "string"
+    },
+    "Citat_avsandare": {
+      "type": "string"
+    }
+  }
+}

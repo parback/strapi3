@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artiklars",
+  "info": {
+    "singularName": "artiklar",
+    "pluralName": "artiklars",
+    "displayName": "Artiklar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Rubrik": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "Ingress": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 2000
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    },
+    "Citat": {
+      "displayName": "Citat",
+      "type": "component",
+      "repeatable": true,
+      "component": "cat1.citat"
+    },
+    "Bilder_full_bredd": {
+      "displayName": "Bilder_full_bredd",
+      "type": "component",
+      "repeatable": true,
+      "component": "cat1.bilder-full-bredd"
+    },
+    "Slug": {
+      "type": "uid"
+    }
+  }
+}

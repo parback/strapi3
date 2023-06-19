@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Header": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Dynamiskt_innehall": {
+      "type": "dynamiczone",
+      "components": [
+        "cat1.bilder-full-bredd",
+        "cat1.citat"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "SEO": {
+      "displayName": "SEO",
+      "type": "component",
+      "repeatable": true,
+      "component": "cat-seo.seo"
+    },
+    "Videos": {
+      "displayName": "Videos",
+      "type": "component",
+      "repeatable": true,
+      "component": "cat1.videos"
+    }
+  }
+}

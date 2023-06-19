@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cat_seo_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "Tag": {
+      "type": "string"
+    }
+  }
+}
